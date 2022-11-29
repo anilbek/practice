@@ -1,0 +1,6 @@
+name: winepred
+docker_env:
+  image: winepred-docker
+entry_points:
+  main:
+    command: "python train.py"
