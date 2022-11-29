@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/6834a54673264ddc874099a82f6270ea/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6834a54673264ddc874099a82f6270ea
+run_name: burly-eel-946
+run_uuid: 6834a54673264ddc874099a82f6270ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668614899161
+status: 1
+tags: []
+user_id: ANL

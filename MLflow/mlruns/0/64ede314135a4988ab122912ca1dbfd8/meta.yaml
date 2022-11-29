@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/64ede314135a4988ab122912ca1dbfd8/artifacts
+end_time: 1668613051448
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64ede314135a4988ab122912ca1dbfd8
+run_name: stylish-bird-676
+run_uuid: 64ede314135a4988ab122912ca1dbfd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668613049971
+status: 4
+tags: []
+user_id: ANL

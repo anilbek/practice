@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/11c22f7f6e1e47419ad15873947c6efd/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11c22f7f6e1e47419ad15873947c6efd
+run_name: smiling-dog-118
+run_uuid: 11c22f7f6e1e47419ad15873947c6efd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668614168655
+status: 1
+tags: []
+user_id: ANL

@@ -1,0 +1,2 @@
+[('gbm', GradientBoostingRegressor(max_depth=12, n_estimators=500, random_state=42,
+                          subsample=0.9)), ('svm', SVR(C=10.0, epsilon=0.0001, gamma=0.3))]

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/6b12803a1df04ad099d116d8b6d31ef8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b12803a1df04ad099d116d8b6d31ef8
+run_name: classy-gnat-408
+run_uuid: 6b12803a1df04ad099d116d8b6d31ef8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668615153838
+status: 1
+tags: []
+user_id: ANL

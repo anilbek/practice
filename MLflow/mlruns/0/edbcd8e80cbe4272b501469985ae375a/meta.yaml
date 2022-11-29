@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/edbcd8e80cbe4272b501469985ae375a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: edbcd8e80cbe4272b501469985ae375a
+run_name: welcoming-sponge-664
+run_uuid: edbcd8e80cbe4272b501469985ae375a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668614964488
+status: 1
+tags: []
+user_id: ANL

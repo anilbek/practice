@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/56790b14f4d84fb3a688a13d31ead5b5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56790b14f4d84fb3a688a13d31ead5b5
+run_name: awesome-sloth-296
+run_uuid: 56790b14f4d84fb3a688a13d31ead5b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668610818441
+status: 1
+tags: []
+user_id: ANL

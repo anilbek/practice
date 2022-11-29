@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/0ef172aac6de4431a5d28880d668caae/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ef172aac6de4431a5d28880d668caae
+run_name: illustrious-deer-744
+run_uuid: 0ef172aac6de4431a5d28880d668caae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668611146495
+status: 1
+tags: []
+user_id: ANL

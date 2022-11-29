@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/9fb54db5a5d145db938b32644b08c877/artifacts
+end_time: 1668613015543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fb54db5a5d145db938b32644b08c877
+run_name: skittish-flea-424
+run_uuid: 9fb54db5a5d145db938b32644b08c877
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668613014240
+status: 4
+tags: []
+user_id: ANL

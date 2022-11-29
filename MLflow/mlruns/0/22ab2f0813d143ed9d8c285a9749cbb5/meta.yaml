@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/22ab2f0813d143ed9d8c285a9749cbb5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22ab2f0813d143ed9d8c285a9749cbb5
+run_name: worried-ant-987
+run_uuid: 22ab2f0813d143ed9d8c285a9749cbb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668610772054
+status: 1
+tags: []
+user_id: ANL

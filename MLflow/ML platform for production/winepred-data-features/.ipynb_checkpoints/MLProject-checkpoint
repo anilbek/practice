@@ -1,0 +1,11 @@
+name: winepred_data_features
+
+conda_env: conda.yaml
+
+entry_points:
+
+  clean_validate_data:
+    command: "python check_verify_data.py "
+
+  main:
+    command: "python main.py"

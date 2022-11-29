@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/6fe7d985ef894151b12c8fac01abeb7f/artifacts
+end_time: 1668614210804
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6fe7d985ef894151b12c8fac01abeb7f
+run_name: resilient-newt-589
+run_uuid: 6fe7d985ef894151b12c8fac01abeb7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668614209700
+status: 4
+tags: []
+user_id: ANL

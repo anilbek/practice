@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/cf9f81bd842046a49f130842bf788a96/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf9f81bd842046a49f130842bf788a96
+run_name: thoughtful-stork-483
+run_uuid: cf9f81bd842046a49f130842bf788a96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668614584964
+status: 1
+tags: []
+user_id: ANL

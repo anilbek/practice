@@ -1,0 +1,2 @@
+GradientBoostingRegressor(max_depth=12, n_estimators=500, random_state=42,
+                          subsample=0.9)

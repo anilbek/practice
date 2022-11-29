@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/fe11672cb54c4d278911b28ffe968a5e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe11672cb54c4d278911b28ffe968a5e
+run_name: serious-fawn-309
+run_uuid: fe11672cb54c4d278911b28ffe968a5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668614367992
+status: 1
+tags: []
+user_id: ANL

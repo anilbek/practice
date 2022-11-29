@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/c00aa9a55dad4a789377ea5d95011796/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c00aa9a55dad4a789377ea5d95011796
+run_name: trusting-zebra-768
+run_uuid: c00aa9a55dad4a789377ea5d95011796
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668615012974
+status: 1
+tags: []
+user_id: ANL

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ANL/Desktop/mlflow%20practice/mlruns/0/e08ecf3c73944486bb61fc242a7373cb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e08ecf3c73944486bb61fc242a7373cb
+run_name: efficient-stork-910
+run_uuid: e08ecf3c73944486bb61fc242a7373cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668611326545
+status: 1
+tags: []
+user_id: ANL
