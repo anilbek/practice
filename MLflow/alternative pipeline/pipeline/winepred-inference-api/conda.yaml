@@ -1,0 +1,14 @@
+name: winepred-training
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - pip:
+    - git+git://github.com/mlflow/mlflow
+    - sklearn
+    - pandas_datareader
+    - great-expectations==0.13.15
+    - pandas-profiling
+    - xgboost

@@ -1,0 +1,25 @@
+name: winepred
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python main.py --steps {pipeline_steps}"
+
+  check_verify_data:
+    command: "python pipeline/check_verify_data.py
+
+  train_model:
+    command: "python pipeline/train_model.py"
+
+  evaluate_model:
+    command: "python pipeline/evaluate_model.py "
+
+  register_model:
+    command: "python pipeline/register_model.py"
+    
+  batch_scoring:
+    command: "python pipeline/batch_scoring.py"
+
+  batch_scoring:
+    command: "python pipeline/register_model.py"
+    

@@ -1,0 +1,13 @@
+name: winepred
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - cloudpickle
+  - pip:
+    - git+git://github.com/mlflow/mlflow
+    - pandas-profiling
+    - great-expectations
+    - sklearn
