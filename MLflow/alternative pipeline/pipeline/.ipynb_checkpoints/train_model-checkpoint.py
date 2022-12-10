@@ -27,7 +27,10 @@ if __name__ == "__main__":
         X = data.drop('quality', axis=1)
         y = data.quality
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
-
+        
+        signature = infer_signature(X_train, blender.predict(X_train))
+        
+        # train with the best hyperparameters
         gbm = GradientBoostingRegressor(n_estimators=500, subsample=0.9, max_depth=12, learning_rate=0.1, random_state=42)
 
         svr = SVR(C=10.0, gamma=0.3, epsilon=0.0001)
@@ -35,11 +38,3 @@ if __name__ == "__main__":
         blender = VotingRegressor(estimators=[('gbm', gbm), ('svm', svr)],n_jobs=-2)
 
         blender.fit(X_train, y_train)
-
-        preds = blender.predict(X_test)
-        
-        test_prediction_results = pd.DataFrame(data={'y_pred':preds,'y_test':y_test})
-        
-        result = test_prediction_results
-        
-        result.to_csv("data/predictions/test_predictions.csv")

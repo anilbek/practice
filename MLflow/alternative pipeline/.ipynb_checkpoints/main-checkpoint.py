@@ -17,6 +17,11 @@ _steps = [
 @click.option("--steps", default="all", type=str)
 def run_pipeline(steps):
 
+    EXPERIMENT_NAME = "winepred/exp_name"
+    mlflow.set_experiment(EXPERIMENT_NAME)
+    experiment = mlflow.get_experiment_by_name(EXPERIMENT_NAME)
+    logger.info("pipeline experiment_id: %s", experiment.experiment_id)
+    
     # Steps to execute
     active_steps = steps.split(",") if steps != "all" else _steps
     logger.info("pipeline active steps to execute in this run: %s", active_steps)

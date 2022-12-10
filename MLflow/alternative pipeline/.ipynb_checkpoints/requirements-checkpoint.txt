@@ -1,0 +1,7 @@
+ipykernel
+mlflow
+boto3
+sklearn
+pandas
+click
+numpy
