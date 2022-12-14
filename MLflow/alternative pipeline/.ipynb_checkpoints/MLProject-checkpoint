@@ -20,6 +20,7 @@ entry_points:
   batch_scoring:
     command: "python pipeline/batch_scoring.py"
 
-  batch_scoring:
-    command: "python pipeline/register_model.py"
+  inference_pipeline_model:
+    parameters: finetuned_model_run_id: { type: str, default: None }
+    command: "python inference_pipeline_model.py --finetuned_model_run_id {finetuned_model_run_id}"
     

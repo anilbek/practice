@@ -34,6 +34,7 @@ def run_pipeline(steps):
 
         if "train_model" in active_steps:
             training_run = mlflow.run(".", "train_model", parameters={})
+            training_run_id = training_run.run_id
             training_run = mlflow.tracking.MlflowClient().get_run(training_run.run_id)
             model_uri = os.path.join(train_run.info.artifact_uri,"model")
             mlflow.register_model(model_uri,"training-model-winepred")
@@ -45,7 +46,7 @@ def run_pipeline(steps):
             logger.info(inference_batch_run)
         
         if "inference_pipeline_model" in active_steps:
-            inference_api_run = mlflow.run(".", "inference_pipeline_model", parameters={})
+            inference_api_run = mlflow.run(".", "inference_pipeline_model", parameters={'finetuned_model_run_id': training_run_id})
             inference_api_run = mlflow.tracking.MlflowClient().get_run(inference_api_run.run_id)
             logger.info(inference_api_run)
 

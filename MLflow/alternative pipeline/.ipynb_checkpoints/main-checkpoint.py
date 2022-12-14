@@ -7,9 +7,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
 _steps = [
-    "data_features",
-    "training",
-    "inference_batch"
+    "check_verify_data",
+    "train_model",
+    "inference_pipeline_model"
 ]
 
 
@@ -27,13 +27,14 @@ def run_pipeline(steps):
     logger.info("pipeline active steps to execute in this run: %s", active_steps)
 
     with mlflow.start_run(run_name='pipeline', nested=True) as active_run:
-        if "data_features" in active_steps:
-            data_features_run = mlflow.run(".", "data_features", parameters={})
+        if "check_verify_data" in active_steps:
+            data_features_run = mlflow.run(".", "check_verify_data", parameters={})
             data_features_run = mlflow.tracking.MlflowClient().get_run(data_features_run.run_id)
             logger.info(data_features_run)
 
-        if "training" in active_steps:
-            training_run = mlflow.run(".", "training", parameters={})
+        if "train_model" in active_steps:
+            training_run = mlflow.run(".", "train_model", parameters={})
+            training_run_id = training_run.run_id
             training_run = mlflow.tracking.MlflowClient().get_run(training_run.run_id)
             model_uri = os.path.join(train_run.info.artifact_uri,"model")
             mlflow.register_model(model_uri,"training-model-winepred")
@@ -44,8 +45,8 @@ def run_pipeline(steps):
             inference_batch_run = mlflow.tracking.MlflowClient().get_run(inference_batch_run.run_id)
             logger.info(inference_batch_run)
         
-        if "inference_api" in active_steps:
-            inference_api_run = mlflow.run(".", "inference_api", parameters={})
+        if "inference_pipeline_model" in active_steps:
+            inference_api_run = mlflow.run(".", "inference_pipeline_model", parameters={'finetuned_model_run_id': training_run_id})
             inference_api_run = mlflow.tracking.MlflowClient().get_run(inference_api_run.run_id)
             logger.info(inference_api_run)
 

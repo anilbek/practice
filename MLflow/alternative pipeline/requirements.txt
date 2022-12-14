@@ -5,3 +5,5 @@ sklearn
 pandas
 click
 numpy
+ray[tune]
+optuna
