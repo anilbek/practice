@@ -15,7 +15,7 @@ _**MLflow File:**_
 
 I use a simple dataset to build an end-to-end pipeline using MLflow that can do everything from obtaining data to performing inference in addition to implementing performance monitoring on a wine quality dataset.
 
-_**SVNH Deep Learning Notebook:**_
+_**SVNH Image Classification Notebook:**_
 
 I use the SVNH dataset to apply MLP and CNN to build image classification models. I used Data Visualization, Tensorflow, Keras Tuner, and Transfer Learning in addition to the generic DL procedure.
 
